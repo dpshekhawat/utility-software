@@ -24,10 +24,10 @@ The software functions as a system tray utility, with an icon appearing in the s
 
 Right-clicking on the system tray icon reveals a menu with the following options:
 
-(✅ - working, 🚧 - not working) 
+(✅ - working, 🚧 - under development) 
 -  Block Keyboard✅: Selecting the “Block keyboard” option temporarily disables the laptop keyboard.
 -  Unblock Keyboard✅: Selecting the “Unblock keyboard” option re-enables the laptop keyboard.
--  Quit🚧[issue#1](https://github.com/dpshekhawat/utility-software/issues/1): Selecting the “Quit” option exits the utility software.
+-  Quit✅: Selecting the “Quit” option exits the utility software.
 
 ### How to run it on my system?
 
@@ -61,7 +61,7 @@ Once the system tray icon is visible, you can access the menu options by right-c
 
 ### More 🚧:
 - The keyboard hotkeys/shortcuts like (Ctrl+Shift+Esc, etc.) are not blocked using the script (will figure it out),
-- Some Fn keys (top keys) specifically F2,3,4,5,6 are not blocked (maybe because of the logic I used in script is not ideal)
+- Some Fn keys (multi-function keys) specifically F4,F5,F6 are not blocked (maybe because of the logic I used in script is not ideal)
 
 If you are using this for any purpose feel free to star(⭐) the repository.
 
