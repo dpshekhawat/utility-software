@@ -7,7 +7,7 @@ class KeyboardBlocker:
     def __init__(self):
         self.blocked = False
         self.blocked_icon = "icons\mouse.ico"
-        self.unblocked_icon = "icons\toggle-turn-off-icon.ico"
+        self.unblocked_icon = "icons\keyboard.ico"
 
     def block_keyboard(self):
         self.blocked = True
@@ -29,7 +29,7 @@ class KeyboardBlocker:
             icon.update(icon=self.blocked_icon, hover_text="Keyboard blocked")
 
     def on_quit(self, icon):
-        icon.shutdown()
+        pass  # Do nothing here
 
     def get_menu_options(self):
         return (
@@ -50,3 +50,4 @@ if __name__ == "__main__":
     kb_blocker = KeyboardBlocker()
     t = Thread(target=kb_blocker.run)
     t.start()
+    t.join()  # Wait for the thread to finish before exiting
