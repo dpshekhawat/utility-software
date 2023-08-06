@@ -66,7 +66,7 @@ python3 keyboard_blocker.py
 Once the system tray icon is visible, you can access the menu options by right-clicking on the icon. From there, you can choose to block or unblock the keyboard, or quit the utility software.
 
 ### More 🚧:
-- The keyboard hotkeys/shortcuts like (Ctrl+Shift+Esc, etc.) are not blocked using the script (will figure it out),
+- The keyboard hotkeys/shortcuts like (Fn+Esc, etc.) are not blocked using the script,
 - Some Fn keys (multi-function keys) specifically F4,F5,F6 are not blocked (maybe because of the logic I used in script is not ideal)
 
 If you are using this for any purpose feel free to star(⭐) the repository.
