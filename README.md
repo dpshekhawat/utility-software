@@ -58,7 +58,7 @@ To run keyboard blocking utility software for Windows, you can follow these step
 2. **Open terminal:** Open a terminal, PowerShell, or command prompt window.
 3. **Run the application:** Run the application by entering the command 
 ```powershell
-python keyboard_blocker.py
+python3 keyboard_blocker.py
 ```
 
 4. **System tray icon:** After running the application, you should see a system tray icon appear.
