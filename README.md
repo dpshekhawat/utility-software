@@ -16,6 +16,12 @@ In addition to cleaning, there are other use cases, for instance:
 
 This keyboard blocking utility software for Windows operates as follows:
 
+<p align="center">
+    <img src="img/menu_options.png" width="250" height="110" center><br>
+    <img src="img/keyboard_unblocked_status.png" width="190" height="110">
+    <img src="img/keyboard_blocked_status.png" width="190" height="110">
+</p>
+
 **System Tray Utility**
 
 The software functions as a system tray utility, with an icon appearing in the system tray when the script is running in the background.
